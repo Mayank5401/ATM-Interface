@@ -15,4 +15,6 @@ SELECT * FROM users;
 
 GRANT ALL PRIVILEGES ON atm_db.* TO 'Mayank'@'localhost';
 
+ALTER TABLE users ADD COLUMN email VARCHAR(255);
+ALTER TABLE users ADD COLUMN phone VARCHAR(20);
     
